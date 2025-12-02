@@ -145,6 +145,7 @@ if st.button("Test load artifacts"):
         st.write("Feature names:", feature_cols)
 
     except Exception as e:
-        st.error("❌ Failed to load artifacts:")
+        st.error("Failed to load artifacts:")
         st.code(str(e))
+
 
