@@ -126,7 +126,7 @@ import os
 
 st.set_page_config(page_title="TTNS DEBUG APP", layout="centered")
 
-st.title("🔧 TTNS Debug App")
+st.title("🔧 TTNS Debug ParminderApp")
 
 st.write("If you can see this text, the Streamlit UI is working.")
 
@@ -147,3 +147,4 @@ if st.button("Test load artifacts"):
     except Exception as e:
         st.error("❌ Failed to load artifacts:")
         st.code(str(e))
+
